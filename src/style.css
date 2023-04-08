@@ -24,7 +24,7 @@
 }
 
 .button-text {
-  padding: 0 40px;
+  padding: 0 20px;
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -62,7 +62,7 @@ text-decoration: none;
 
 .container-card {
   background-color: rgb(61, 61, 61);
-  width: 350px;
+  width: 325px;
   
 }
 
