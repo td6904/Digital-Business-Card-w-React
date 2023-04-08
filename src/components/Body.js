@@ -37,7 +37,7 @@ export default function Body() {
             I am a back-end developer looking to broden my horizons and learn
             more about the front-end, Javascript, React and anything I can get
             my hands on really. I enjoy building websites and apps that have
-            meaning to me and my clients. I am always look to learn.
+            meaning to me and my clients. I am always looking to learn.
           </p>
           <h1>Interests</h1>
           <p>
