@@ -1,5 +1,7 @@
 import React from "react";
 import tyler from "./images/tyler-group.jpg";
+import linked from "../images/linkedin.png";
+import email from "../images/email.png";
 
 export default function Body() {
   return (
@@ -7,7 +9,7 @@ export default function Body() {
       <div className="container-card">
         <div className="header">
           <img className="photo" src={tyler} alt="" width="100%" />
-          <h1>Tyler Durnion</h1>
+          <h1 className="tyler">Tyler Durnion</h1>
           <h3>Web Developer</h3>
           <p>
             <a href="https://portfolio-tylerdurnion.netlify.app/">
@@ -15,17 +17,18 @@ export default function Body() {
             </a>
           </p>
           <div className="button-container">
-          <button>
-            <a href="mailto:td665@pm.me" target="_blank" rel="noreferrer">
+          <button className="email-button">
+            <a className="button-text" href="mailto:td665@pm.me" target="_blank" rel="noreferrer">
+              <img src={email} alt="email" width="24px" />
               Email
             </a>
           </button>
-          <button>
-            <a
+          <button className="linkedin-button">
+            <a className="button-text"
               href="https://www.linkedin.com/in/tylerdurnion/"
               target="_blank"
               rel="noreferrer"
-            >
+            ><img src={linked} alt="in" width="30px" />
               LinkedIn
             </a>
           </button>
