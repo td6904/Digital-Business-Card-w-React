@@ -1,5 +1,5 @@
 import React from "react";
-import tyler from "./images/tyler-group.jpg";
+import tyler from "../images/tyler-group.jpg";
 import linked from "../images/linkedin.png";
 import email from "../images/email.png";
 
