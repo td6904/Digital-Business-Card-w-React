@@ -6,7 +6,7 @@ export default function Body() {
     <div className="full">
       <div className="container-card">
         <div className="header">
-          <img className="photo" src={tyler} alt="" width="400px" />
+          <img className="photo" src={tyler} alt="" width="100%" />
           <h1>Tyler Durnion</h1>
           <h3>Web Developer</h3>
           <p>
@@ -34,11 +34,11 @@ export default function Body() {
         <div className="text">
           <h1>About</h1>
           <p>
-            I am a back-end developer looking to broden my horizons and learn
+            I am a back-end developer looking to broaden my horizons and learn
             more about the front-end, Javascript, React and anything I can get
             my hands on really. I enjoy building websites and apps that have
             meaning to me and my clients. I am always looking to learn.
-          </p>
+          </p><br />< br />
           <h1>Interests</h1>
           <p>
             Guitar is my main passion. I love carpentry, cooking, reading. Savy
@@ -46,6 +46,7 @@ export default function Body() {
             Arabic. Love to travel, cycle and meet new people.
           </p>
         </div>
+        <p className="footer">Developed by Tyler / Using React-app</p>
       </div>
     </div>
   );
