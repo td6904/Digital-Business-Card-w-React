@@ -6,6 +6,7 @@
 
 .tyler  {
   margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 .header {
@@ -62,7 +63,7 @@ text-decoration: none;
 
 .container-card {
   background-color: rgb(61, 61, 61);
-  width: 325px;
+  width: 100%;
   
 }
 
